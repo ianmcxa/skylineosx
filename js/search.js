@@ -52,7 +52,7 @@
 			var div = document.createElement("div");
 			div.className = "search-result";
 
-			var title = document.createElement("h2");
+			var title = document.createElement("h4");
 			var link = document.createElement("a");
 			link.href = result.link;
 			link.innerHTML = result.title;
