@@ -1,0 +1,13 @@
+    </div>
+    <style>
+    .showcase-wrapper {background-image: url("{{ site.baseurl }}/images/home.jpg");}
+    </style>
+    <div class="showcase-wrapper sticky">
+      <div class="showcase-text">
+          {% for post in site.posts limit: 1 %}
+          <span class="badge lazy"></span><br>SkylineOSX<br><p>Hackintosh Resources and Guides</p>
+	  <a href="{{ site.baseurl }}/list.html"><button type="button" class="btn btn-default showcase-button">Read More</button></a>
+          {% endfor %}
+      </div>
+    </div>
+    <div class="container">

@@ -1,0 +1,28 @@
+name: Skyline OSX
+author: Ian Mcxa
+baseurl:
+description: Hackintoshing Resources
+facebook: http://www.facebook.com/pages/Skyline-OSX/1404370243144107
+email: ian@mcxa.us.to
+disqus: diqus-username
+
+##Make sure to edit the above fields, especially for disqus.
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+gems: ['jekyll-lunr-js-search']
