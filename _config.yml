@@ -24,5 +24,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
-gems: ['jekyll-lunr-js-search']
