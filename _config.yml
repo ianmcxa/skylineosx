@@ -24,3 +24,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+    values:
+      thumbnail: "images/default_thumbnail.png"
