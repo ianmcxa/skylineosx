@@ -11,9 +11,35 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-      <li><a href="{{ site.baseurl }}/list.html">List</a></li>
-      <li><a href="{{ site.baseurl }}/links.html">Links</a></li>
-      <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
+
+      <li style="padding-top:8px;padding-bottom:8px">
+      <form action="/search.html" method="GET">
+          <input style="width:75%" type="text" name="query" placeholder="Search" autocomplete="off">
+	  <button class="btn btn-frontpage">Search</button>
+      </form>
+      </li>
+
+      <li style="text-align:center"><h5>Intro to Hackintoshing</h5></li>
+      <li><a href="/what-is-a-hackintosh">What is a Hackintosh?</a></li>
+      <li><a href="/terms-and-definitions">Terms and Definitions</a></li>
+      <li><a href="#">Tools for Hackintoshing</a></li>
+      
+      <li style="text-align:center; padding-top:8px"><h5>Installation Guide<h5></li>
+      <li><a href="#">Create Your Installer</a></li>
+      <li><a href="#">Configuring Clover</a></li>
+      <li><a href="#">Bios Setup</a></li>
+      <li><a href="#">Install OSX</a></li>
+      
+      <li style="text-align:center; padding-top:8px"><h5>Post Installation</h5></li>
+      <li><a href="#">Internet</a></li>
+      <li><a href="#">Audio</a></li>
+      <li><a href="#">Sleep</a></li>
+      <li><a href="#">SSD Trim</a></li>
+      <li><a href="#">Fix Yellow Drive Icons</a></li>
+
+      <li style="text-align:center; padding-top:8px"><h5>+++</h5></li>
+      <li><a href="{{ site.baseurl }}/list.html">Blog Posts</a></li>
+      <li><a href="{{ site.baseurl }}/links.html">Additional Resources</a></li>
       <li><a href="{{ site.baseurl }}/about.html">About</a></li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -36,8 +62,8 @@
 	<div id="collapse3" class="accordion-body collapse" style="height: 0px; ">
 		<div class="accordion-inner">
 			<ul style="list-style-type:none">
-				<li><a href="#">What is a Hackintosh?</a></li>
-				<li><a href="#">Terms and Definitions</a></li>
+				<li><a href="/what-is-a-hackintosh">What is a Hackintosh?</a></li>
+				<li><a href="/terms-and-definitions">Terms and Definitions</a></li>
 				<li><a href="#">Tools for Hackintoshing</a></li>
 			</ul>
 		</div>
