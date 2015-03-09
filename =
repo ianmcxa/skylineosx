@@ -1,15 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-.btn-frontpage {
-	background-color: #d90006;
-	color: #ffffff;
-}
-.btn-frontpage:hover,
-.btn-frontpage:active {
-	background-color: #bf0005;
-	border-color: #204d74;
-	color: #ffffff;
-}
 
 body
 {
@@ -746,10 +736,10 @@ time
     width: 100%;
     margin: 0 0 0 0;
     padding: 15px 15px 0 15px;
-   }
+  }
 
   #article {
-padding: 0 10px 0 10px;
+      padding: 0 10px 0 10px;
   }
 
 
