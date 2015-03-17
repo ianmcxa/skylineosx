@@ -93,3 +93,6 @@ Save your configuration and reboot. Clover should boot you directly to your desk
 Check out the [Post Installation](http://skylineosx.wordpress.com/post-installation/) for guides on enabling audio, internet and more.
 
 NOTE: to install kexts simply copy them to /EFI/EFI/CLOVER/kexts/10.10 and reboot.
+
+<br>
+<a class="btn btn-frontpage" style="float:left" href="/bios-configuration">Bios Configuration <i class="fa fa-chevron-left"></i></a>

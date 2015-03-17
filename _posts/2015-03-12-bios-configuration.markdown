@@ -60,3 +60,7 @@ Wake on LAN must be disabled.
 Soft-Off by PWR-BTTN set to delay 4 seconds (this is not essential, but it may fix shutoff/reboot issues)
 
 Now save your BIOS configuration and reboot to begin the installation...
+
+<br>
+<a class="btn btn-frontpage" style="float:left" href="/configuring-clover">Configuring Clover <i class="fa fa-chevron-left"></i></a>
+<a class="btn btn-frontpage" style="float:right" href="/installing-osx">Install OS X <i class="fa fa-chevron-right"></i></a>
