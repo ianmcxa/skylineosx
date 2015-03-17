@@ -1,5 +1,6 @@
 ---
 title: Terms and Definitions
+date: 2013-12-30
 permalink: /terms-and-definitions
 ---
 When starting out hackintoshing, there can be a lot of daunting terms and jargon. In this section, I will attempt to define many of these terms.

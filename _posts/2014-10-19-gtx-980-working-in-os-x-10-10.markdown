@@ -1,0 +1,35 @@
+---
+author: ian_mcxa
+comments: true
+date: 2014-10-19 16:22:01+00:00
+layout: post
+slug: gtx-980-working-in-os-x-10-10
+title: GTX 980 working in OS X 10.10
+categories:
+- Fixes
+- Guides
+- Hardware
+- OS X
+tags:
+- Graphics cards
+- GTX 970
+- GTX 980
+- Maxwell
+- Nvidia
+---
+
+![](/images/guide-images/GTX-980-Yosemite.jpg)
+
+The Maxwell based GTX 980 appears to be working in OS X 10.10 Yosemite with the Nvidia web driver. The driver has been buggy with Maxwell cards during the developer previews of Yosemite, so it's a little to early to tell if it'll be completely solid. The good news is that all Maxwell cards should now work with OS X.
+
+[Download Yosemite Web Driver](http://www.nvidia.com/download/driverResults.aspx/78853/en-us)
+
+For more detailed install instructions check out rampage dev's [web driver install guide](http://www.insanelymac.com/forum/topic/288582-new-nvidia-retail-driver-install-solution/). Note: the drivers he links are the old ones for Mavericks.
+
+
+### Sources
+
+
+http://www.insanelymac.com/forum/topic/300923-gtx-970-compatibility/
+
+http://netkas.org/?p=1356

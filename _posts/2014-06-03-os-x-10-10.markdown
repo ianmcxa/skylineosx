@@ -1,0 +1,54 @@
+---
+author: ian_mcxa
+comments: true
+date: 2014-06-03 14:59:15+00:00
+layout: post
+slug: os-x-10-10
+title: OS X 10.10
+wordpress_id: 718
+categories:
+- General
+- OS X
+- Rumours
+- Skyline News
+---
+
+### Release Information
+
+
+Recently Apple has been taking on a much faster release cycle, with updates rolling out about once a year. Yesterday at WWDC 2014 Apple announced two major releases, iOS8 and OS X 10.10 Yosemite.
+
+The first Yosemite developer preview, DP1,  has already been seeded to paid Apple Developers. The public beta is scheduled to begin this summer, and the final release will be this fall,  likely in October. However, torrents for the developer previews generally pop up soon after they are seeded to the developers.
+
+
+### New Features
+
+
+Mavericks brought a lot of under the hood improvements to OS X, and Yosemite seems to be a more surface update featuring an iOS 7 style user interface and apps to match. The design seems to be at least in some way inspired by the Linux environment Gnome 3, which was optimized for touch devices. This similar design could mean that apple is planning some OS X based touch devices for the future. At this point it's just a guess though.
+
+
+![](/images/guide-images/osx_yosemite-finder-view.jpg)
+
+### Touch optimized design?
+
+
+The other main feature is the integration with iOS 8 calls and sms, which is likely going to be accomplished through some kind of VOIP protocol on Apple's servers. The integration should work on hackintoshes; however, the [Nvram variables](/general/2014/05/10/how-to-fix-imessage-issues-and-why-they-occur-in-the-first-place.html) will probably have to be properly set.
+
+
+
+### Installation Issues
+
+
+Every new release brings some new issues for hackintoshes. The issues this time include a repackaged mach_kernel and a kext loading issues. 10.9 moved the kernel into a package in the installer that required Pacifist to extract. In Yosemite, the Kernel has been repackaged in a .xz format that so far, no one has been able to unpack; however, the kernel can be copied from a real mac's installation. By default Kexts will no longer load if they are not signed. The workaround for this is to set the nvram variable _kext-dev-mode=1. _The kext cache must also be rebuilt before the kexts will load.
+
+Insanelymac member +ira has assembled a guide for all these workarounds [here](http://www.insanelymac.com/forum/topic/298402-os-x-yosemite-dps-builds/page-5). I will be attempting my own guide in the coming days as more information becomes available.
+
+
+### Sources
+
+
+http://www.insanelymac.com/forum/topic/298402-os-x-yosemite-dps-builds/
+
+http://netkas.org/?p=1329
+
+https://www.apple.com/osx/preview/

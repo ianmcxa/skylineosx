@@ -1,5 +1,6 @@
 ---
 title: What Is A Hackintosh?
+date: 2013-12-30
 permalink: /what-is-a-hackintosh
 ---
 ##What Is A Hackintosh?

@@ -1,0 +1,63 @@
+---
+author: ian_mcxa
+comments: true
+date: 2014-03-22 06:13:02+00:00
+layout: post
+slug: 10-9-2-update
+title: 10.9.2 Update
+wordpress_id: 650
+categories:
+- Fixes
+- General
+- Guides
+- OS X
+- Skyline News
+post_format:
+- Image
+tags:
+- '10.9'
+- 10.9.2
+- Mavericks
+- SSL
+- Update
+---
+
+The OS X 10.9.2 Update fixes some functionality and adds some features. Most notably, 10.9.2 fixes a massive security bug in OS X that was recently discovered. For this reason all users are urged to upgrade. Nothing in the core of the system was changed, so you can upgrade your hackintosh fairly easily. As with any system, you are encouraged to back you system up prior to applying the update.
+
+Note: you must be on 10.9+ for this update to work.
+
+
+###  Clover
+
+
+If you are using Clover, you can update through the mac app store. However, if you have kexts installed in /S/L/E (/System/Library/Extensions) you may need to re-install them.
+
+
+### Chameleon/Chimera
+
+
+Because Chameleon and Chimera run from within your main partition, they can be corrupted by an App Store update rendering your machine unbootable.
+
+To update to 10.9.2, download the combo update. Combo updates run through traditional OS X installers. This allows us to re-install any overwritten drivers before rebooting.
+
+
+
+	
+  * Install the update
+
+	
+  * _Before rebooting, _re-install your kexts.
+
+	
+  * Then reboot.
+
+
+[Download Combo Update](http://support.apple.com/downloads/DL1726/en_US/OSXUpdCombo10.9.2.dmg)
+
+
+### Sources
+
+
+http://support.apple.com/kb/DL1725
+
+http://www.macbreaker.com/2013/07/hackintosh-update-guide.html
