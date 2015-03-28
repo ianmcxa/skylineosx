@@ -155,3 +155,6 @@ Now on the root of your installer Create a folder named Files and copy:
 
 
 Next you will need to configure clover for your machine...
+
+<br>
+<a class="btn btn-frontpage" style="float:right" href="/configuring-clover">Configuring Clover <i class="fa fa-chevron-right"></i></a>

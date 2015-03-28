@@ -121,3 +121,7 @@ Change InjectKexts to 'Yes' For existing installs change InjectKexts to 'IfnoFa
 Hit CMD+S to save your config file and exit the Clover Configurator.
 
 Now, Navigate to /EFI/EFI/CLOVER and copy the config.plist to the 'Files' folder on the root of your installer drive.
+
+<br>
+<a class="btn btn-frontpage" style="float:left" href="/create-your-installer">Create your installer <i class="fa fa-chevron-left"></i></a>
+<a class="btn btn-frontpage" style="float:right" href="/bios-configuration">Bios Configuration <i class="fa fa-chevron-right"></i></a>
