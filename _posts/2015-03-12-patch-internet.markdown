@@ -12,11 +12,7 @@ Unless you are extremely lucky, you will need a kext to enable your internet. Mo
 
 ### Wifi Cards
 
-
-For a list of compatible desktop wireless cards check out [Macbreaker's article](http://www.macbreaker.com/2012/04/most-compatible-wifi-cards-for-your.html).
-
-For a list of compatible laptop wireless cards check out the [inventory at OSXlatitude](http://forum.osxlatitude.com/index.php?/topic/2120-supportedunsupported-wireless-cards-inventory/).
-
+For a list of compatible hackintosh wifi cards see [hackintosh wifi](/fixes/general/hardware/os x/2014/02/22/hackintosh-wifi.html)
 
 ### Ethernet
 
